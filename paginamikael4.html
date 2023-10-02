@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> <!--Cabeça da página-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Portifólio Pessoal</title> <!--Titulo da página-->
+    <link rel="stylesheet" href="estilo.css"> <!--Elemento que faz referência ao CSS para estilização da página-->
+    
+</head>
+<!--O elemento 'Class' foi utilizado como uma classe que será utilizado pelo CSS para estilização de páginas-->
+<body> <!--Corpo do texto-->
+
+<h1 class="supertitulo">Link para contato</h1> <!--Supertitulo-->
+<h2 class="subtitulo">Formulário</h2> <!--Subtitulo-->
+
+<form class="formulario"       action="" method=""> <!--Formulário com os métodos de envio dos dados-->
+    <table> <!--Criação de tabela-->
+
+        <tr> <!--Define uma linha-->
+            <th><label for="Nome">Nome:</label></th> <!-- Define uma célula que vai ficar após o nome-->
+            <td><input type="text" name="Nome" id="Nome"></td> <!--'td' e 'input' define o conteúdo da célula-->
+        </tr>
+        <tr>
+            <th><label for="Contato">Contato</label></th>
+            <td><input type="Contato" name="Contato" id="Contato"></td>
+        </tr>
+        <tr>
+            <th><label for="Email">E-mail:</label></th>
+            <td><input type="Email" name="Email" id="Email" ></td>
+        </tr>
+        <tr>
+            <th><label for="msg">Digite sua mensagem</label></th>
+            <td><textarea name="msg" rows="5" cols="40">Digite sua mensagem</textarea></td> <!--'textarea vai ser utilizado para inserir uma caixinha de texto para o usuário digitar uma mensagem'-->
+        </tr>
+        <tr>
+            <td></td>
+            <td> <button>Enviar</button></td>
+        </tr>
+    </table>
+</form>
+
+    <nav class="pagina"> <!--Aqui foi utilizado de navegação 'nav',com o intuito que o usuário pudesse navegar entre páginas na mesma página-->
+        <ul> <!--Aqui foi inserido uma lista não ordenada de links de páginas-->
+           <a class="pagina"  href="paginamikael.html"> Página Principal </a><br>
+           <a class="pagina"  href="paginamikael2.html"> Sobre Mim </a><br>
+           <a class="pagina"  href="paginamikael3.html"> Formação Educacional </a><br>
+           <a class="pagina"  href="paginamikael4.html"> Link Para Contato </a></br>
+           <a class="pagina"  href="paginamikael5.html"> Portifólio Pessoal </a><br>
+        </ul>
+ 
+     </nav>
+ 
+</body>
+</html>

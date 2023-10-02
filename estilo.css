@@ -1,0 +1,46 @@
+.supertitulo{ /*Aqui foi retomado a classe que foi declarada no HTML*/
+    text-align: center; /*Centralização do texto*/
+color:rgb(0, 255, 21);font-style: normal 200px;} /*Definição da cor do texto*/
+
+.subtitulo{ /*Aqui foi retomado a classe que foi declarada no HTML*/
+    text-align: center;  /*Centralização do texto*/
+color: rgb(255, 0, 34);font-style: normal 10px;} /*Definição da cor texto*/
+
+.paragrafo{ /*Aqui foi retomado a classe que foi declarada no HTML*/
+    text-align: center; /*Centralização do parágrafo*/
+color:rgb(162, 0, 255);font-style: normal 200px; /*Definição da cor das palavras*/
+font-size: large;} /*Definição da fonte das palavras*/
+
+.Logo{ /*Aqui foi retomado a classe que foi declarada no HTML*/
+    display: flex; /*Foi utilizado para o alinhamento de imagem entre os espaços*/
+justify-content: center; /*A propriedade alinha os itens do contêiner flexível quando os itens não usam todo o espaço disponível no eixo principal*/
+aspect-ratio: 19/7; /*Esse elemento foi utilizado para aumentar o tamanho da imagem*/
+object-fit: contain; /*Esse é utilizado para conter o tamanho da imagem quando ela aumentada para não expandir em toda a tela e preservar as dimensões da imagem*/
+outline-style: hidden;
+}
+
+.Foto{ /*Aqui foi retomado a classe que foi declarada no HTML*/ 
+    display: flex; /*Foi utilizado para o alinhamento de imagem entre os espaços*/
+justify-content: center; /*A propriedade alinha os itens do contêiner flexível quando os itens não usam todo o espaço disponível no eixo principal*/
+aspect-ratio: 19/7; /*Esse elemento foi utilizado para aumentar o tamanho da imagem*/
+object-fit: contain; /*Esse é utilizado para conter o tamanho da imagem quando ela aumentada para não expandir em toda a tela e preservar as dimensões da imagem*/
+overflow: visible;} /*Essa propriedade especifica se o conteúdo deve ser recortado ou adicionado barras de rolagem quando um O conteúdo do elemento é muito grande para caber em uma área especificada.*/
+
+.Diagrama{  /*Aqui foi retomado a classe que foi declarada no HTML*/
+    display: flex; /*Foi utilizado para o alinhamento de imagem entre os espaços*/
+justify-content:center; /*A propriedade alinha os itens do contêiner flexível quando os itens não usam todo o espaço disponível no eixo principal*/
+aspect-ratio: 19/7;  /*Esse elemento foi utilizado para aumentar o tamanho da imagem*/
+object-fit: contain; /*Esse é utilizado para conter o tamanho da imagem quando ela aumentada para não expandir em toda a tela e preservar as dimensões da imagem*/
+overflow: visible;} /*Essa propriedade especifica se o conteúdo deve ser recortado ou adicionado barras de rolagem quando um O conteúdo do elemento é muito grande para caber em uma área especificada.*/
+
+.pagina{  /*Aqui foi retomado a classe que foi declarada no HTML*/
+    display: inline-flex;
+text-decoration: none; /*A propriedade especifíca a propriedade aplicada ao texto*/
+color: rgb(17, 0, 255);
+flex-wrap: wrap; /*A propriedade especifica se os itens flexíveis devem ser quebrados ou não*/
+}
+.formulario{ /*Aqui foi retomado a classe que foi declarada no HTML*/ 
+    display: flex; /*Foi utilizado para o alinhamento de imagem entre os espaços*/
+justify-content: center;/*A propriedade alinha os itens do contêiner flexível quando os itens não usam todo o espaço disponível no eixo principal*/
+aspect-ratio: 20/6; /*Esse elemento é utilizado para aumentar o tamanho das imagens */
+}
